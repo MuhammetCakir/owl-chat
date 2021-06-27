@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "22951433096",
+    "project_id": "owl-chat-6a5ed",
+    "storage_bucket": "owl-chat-6a5ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22951433096:android:dd50933ef6f2d9db94203d",
+        "android_client_info": {
+          "package_name": "com.mcakir.owlchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22951433096-s0ho93jl39mqk1p1ddnjteg47214knsa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2w_H8viJCcOtGP-NT9P2i4X2rZaDjc2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22951433096-s0ho93jl39mqk1p1ddnjteg47214knsa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

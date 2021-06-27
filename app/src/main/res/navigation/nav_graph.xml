@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/entryFragment">
+
+    <fragment
+        android:id="@+id/entryFragment"
+        android:name="com.mcakir.owlchat.entry.view.EntryFragment"
+        android:label="Join"
+        tools:layout="@layout/fragment_entry" >
+
+        <action
+            android:id="@+id/action_entryFragment_to_chatFragment"
+            app:destination="@id/chatFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.mcakir.owlchat.chat.view.ChatFragment"
+        android:label="Owl Chat"
+        tools:layout="@layout/fragment_chat" />
+</navigation>
