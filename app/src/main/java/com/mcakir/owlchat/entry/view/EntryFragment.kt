@@ -1,15 +1,13 @@
 package com.mcakir.owlchat.entry.view
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
+import androidx.fragment.app.Fragment
 import com.mcakir.owlchat.databinding.FragmentEntryBinding
 import com.mcakir.owlchat.entry.EntryContracts
 import com.mcakir.owlchat.entry.presenter.EntryPresenter
-
 
 class EntryFragment : Fragment(), EntryContracts.View {
 
@@ -26,7 +24,8 @@ class EntryFragment : Fragment(), EntryContracts.View {
     }
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment

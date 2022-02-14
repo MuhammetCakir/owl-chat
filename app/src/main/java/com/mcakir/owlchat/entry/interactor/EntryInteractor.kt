@@ -15,7 +15,7 @@ class EntryInteractor : EntryContracts.Interactor {
     var serviceStatus: ServiceStatus = ServiceStatus.READY_FOR_USE
 
     constructor(presenter: EntryContracts.Presenter) {
-        FirebaseUtils.getUsersReference().addValueEventListener(object: ValueEventListener {
+        FirebaseUtils.getUsersReference().addValueEventListener(object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
                 serviceStatus = ServiceStatus.READY_FOR_USE
 

@@ -1,8 +1,8 @@
 package com.mcakir.owlchat.entry.presenter
 
 import com.mcakir.owlchat.entry.EntryContracts
-import com.mcakir.owlchat.entry.interactor.EntryInteractor
 import com.mcakir.owlchat.entry.entity.User
+import com.mcakir.owlchat.entry.interactor.EntryInteractor
 import com.mcakir.owlchat.entry.router.EntryRouter
 
 class EntryPresenter(val view: EntryContracts.View) : EntryContracts.Presenter {

@@ -12,7 +12,7 @@ import com.mcakir.owlchat.utils.FirebaseUtils
 class ChatInteractor(val presenter: ChatContracts.Presenter) : ChatContracts.Interactor {
 
     override fun observeMessages() {
-        FirebaseUtils.getMessagesReference().addValueEventListener(object: ValueEventListener {
+        FirebaseUtils.getMessagesReference().addValueEventListener(object : ValueEventListener {
             override fun onCancelled(error: DatabaseError) {
                 presenter.onServiceFail(error.message)
             }

@@ -4,8 +4,8 @@ import com.stfalcon.chatkit.commons.models.IMessage
 import com.stfalcon.chatkit.commons.models.IUser
 import java.util.*
 
-class Message(val _user: User, val _text: String, val _timestamp: String)
-    : IMessage, Comparable<Message> {
+class Message(val _user: User, val _text: String, val _timestamp: String) :
+    IMessage, Comparable<Message> {
     override fun getId(): String {
         return _timestamp
     }

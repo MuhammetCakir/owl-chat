@@ -5,7 +5,6 @@ import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 
-
 object FirebaseUtils {
 
     private const val DB_URL = "https://owl-chat-6a5ed-default-rtdb.europe-west1.firebasedatabase.app"
