@@ -56,8 +56,4 @@ class EntryFragment : Fragment(), EntryContracts.View {
     override fun showStatusMessage(message: String) {
         binding.statusText.text = message
     }
-
-    override fun setNickname(nickname: String) {
-        binding.nicknameText.setText(nickname, TextView.BufferType.EDITABLE)
-    }
 }
